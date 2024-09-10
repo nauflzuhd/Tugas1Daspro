@@ -1,1 +1,4 @@
-
+program Soal;
+begin
+    write('Belajar Pascal untuk Dasar Pemrograman');
+end.
