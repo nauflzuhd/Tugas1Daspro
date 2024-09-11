@@ -1,0 +1,12 @@
+program soal;
+uses crt;
+var jalan,no,kota,kode:string;
+begin
+clrscr;
+    write('Jalan    : ');readln(jalan);
+    write('No       : ');readln(no);
+    write('Kota     : ');readln(Kota);
+    write('Kode Pos : ');readln(kode);
+    writeln;
+    write('Alamat: Jalan ',jalan,' No.',no,' ',kota,' ',kode);
+    end.
