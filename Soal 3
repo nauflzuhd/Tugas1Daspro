@@ -1,0 +1,14 @@
+program soal;
+uses crt;
+var nama,nim,kom,alamat:string;
+begin
+    clrscr;
+    writeln('Masukkan Nama Anda : ');readln(nama);
+    writeln('Masukkan Nim Anda : ');readln(nim);
+    writeln('Masukkan Kom Anda : ');readln(kom);
+    writeln('Masukkan Alamat Anda : ');read(alamat);
+    writeln;
+    writeln('Hallo, Nama saya ',nama,', NIM saya ',nim,',');
+    writeln('saya di kom ',kom,', alamat saya di ',alamat,'. Salam');
+    writeln('Kenal Semua!');
+end.
